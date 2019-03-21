@@ -1,0 +1,17 @@
+//
+//  Modularization-PrefixHeader.pch
+//  Modularization
+//
+//  Created by CYKJ on 2019/3/21.
+//  Copyright © 2019年 D. All rights reserved.
+
+
+#ifndef Modularization_PrefixHeader_pch
+#define Modularization_PrefixHeader_pch
+
+#ifdef __OBJC__
+    @import UIKit;
+    @import Foundation;
+#endif
+
+#endif /* Modularization_PrefixHeader_pch */

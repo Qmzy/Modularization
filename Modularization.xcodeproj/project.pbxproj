@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD121332224354B80023CD95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD121331224354B80023CD95 /* AppDelegate.m */; };
+		AD121335224354B80023CD95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD121334224354B80023CD95 /* ViewController.m */; };
+		AD121338224354B90023CD95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD121336224354B90023CD95 /* Main.storyboard */; };
+		AD12133A224354BA0023CD95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD121339224354BA0023CD95 /* Assets.xcassets */; };
+		AD12133D224354BA0023CD95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD12133B224354BA0023CD95 /* LaunchScreen.storyboard */; };
+		AD121340224354BA0023CD95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD12133F224354BA0023CD95 /* main.m */; };
+		AD12134A224354BA0023CD95 /* ModularizationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD121349224354BA0023CD95 /* ModularizationTests.m */; };
+		AD121355224354BA0023CD95 /* ModularizationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD121354224354BA0023CD95 /* ModularizationUITests.m */; };
+		AD1213662243552B0023CD95 /* Mediator.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1213652243552B0023CD95 /* Mediator.m */; };
+		AD121369224363530023CD95 /* Mediator+Login.m in Sources */ = {isa = PBXBuildFile; fileRef = AD121368224363530023CD95 /* Mediator+Login.m */; };
+		AD12136D224366880023CD95 /* Target_Login.m in Sources */ = {isa = PBXBuildFile; fileRef = AD12136C224366880023CD95 /* Target_Login.m */; };
+		AD1213702243691C0023CD95 /* Cube.m in Sources */ = {isa = PBXBuildFile; fileRef = AD12136F2243691C0023CD95 /* Cube.m */; };
+		AD12137422436A220023CD95 /* LoginCubeProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = AD12137322436A220023CD95 /* LoginCubeProvider.m */; };
+		AD12139722437AEE0023CD95 /* WTModuleItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AD12137922437AEE0023CD95 /* WTModuleItem.m */; };
+		AD12139822437AEE0023CD95 /* WTSafeContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = AD12137C22437AEE0023CD95 /* WTSafeContainer.m */; };
+		AD12139922437AEE0023CD95 /* WTEventDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = AD12137E22437AEE0023CD95 /* WTEventDispatch.m */; };
+		AD12139A22437AEE0023CD95 /* WTEventItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AD12138022437AEE0023CD95 /* WTEventItem.m */; };
+		AD12139B22437AEE0023CD95 /* WTEventContext.m in Sources */ = {isa = PBXBuildFile; fileRef = AD12138322437AEE0023CD95 /* WTEventContext.m */; };
+		AD12139C22437AEE0023CD95 /* WTEventBus.m in Sources */ = {isa = PBXBuildFile; fileRef = AD12138522437AEE0023CD95 /* WTEventBus.m */; };
+		AD12139D22437AEE0023CD95 /* WTEventQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = AD12138622437AEE0023CD95 /* WTEventQueue.m */; };
+		AD12139E22437AEE0023CD95 /* WTEventAction.m in Sources */ = {isa = PBXBuildFile; fileRef = AD12138822437AEE0023CD95 /* WTEventAction.m */; };
+		AD1213A022437AEE0023CD95 /* WTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD12138D22437AEE0023CD95 /* WTAppDelegate.m */; };
+		AD1213A122437AEE0023CD95 /* WTModuleMessager.m in Sources */ = {isa = PBXBuildFile; fileRef = AD12139122437AEE0023CD95 /* WTModuleMessager.m */; };
+		AD1213A222437AEE0023CD95 /* WTModuleLifecycle.m in Sources */ = {isa = PBXBuildFile; fileRef = AD12139222437AEE0023CD95 /* WTModuleLifecycle.m */; };
+		AD1213A322437AEE0023CD95 /* WTModuleLifecycle+AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD12139422437AEE0023CD95 /* WTModuleLifecycle+AppDelegate.m */; };
+		AD1213A422437AEE0023CD95 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = AD12139622437AEE0023CD95 /* .gitkeep */; };
+		AD1213A822437CA70023CD95 /* WTModuleLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1213A722437CA70023CD95 /* WTModuleLogin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD121346224354BA0023CD95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD121325224354B80023CD95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD12132C224354B80023CD95;
+			remoteInfo = Modularization;
+		};
+		AD121351224354BA0023CD95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD121325224354B80023CD95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD12132C224354B80023CD95;
+			remoteInfo = Modularization;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD12132D224354B80023CD95 /* Modularization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Modularization.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD121330224354B80023CD95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD121331224354B80023CD95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD121333224354B80023CD95 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD121334224354B80023CD95 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD121337224354B90023CD95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD121339224354BA0023CD95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD12133C224354BA0023CD95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD12133E224354BA0023CD95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD12133F224354BA0023CD95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD121345224354BA0023CD95 /* ModularizationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModularizationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD121349224354BA0023CD95 /* ModularizationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModularizationTests.m; sourceTree = "<group>"; };
+		AD12134B224354BA0023CD95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD121350224354BA0023CD95 /* ModularizationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModularizationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD121354224354BA0023CD95 /* ModularizationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModularizationUITests.m; sourceTree = "<group>"; };
+		AD121356224354BA0023CD95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD1213642243552B0023CD95 /* Mediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mediator.h; sourceTree = "<group>"; };
+		AD1213652243552B0023CD95 /* Mediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mediator.m; sourceTree = "<group>"; };
+		AD121367224363530023CD95 /* Mediator+Login.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mediator+Login.h"; sourceTree = "<group>"; };
+		AD121368224363530023CD95 /* Mediator+Login.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Mediator+Login.m"; sourceTree = "<group>"; };
+		AD12136B224366880023CD95 /* Target_Login.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_Login.h; sourceTree = "<group>"; };
+		AD12136C224366880023CD95 /* Target_Login.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_Login.m; sourceTree = "<group>"; };
+		AD12136E2243691C0023CD95 /* Cube.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cube.h; sourceTree = "<group>"; };
+		AD12136F2243691C0023CD95 /* Cube.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cube.m; sourceTree = "<group>"; };
+		AD12137222436A220023CD95 /* LoginCubeProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginCubeProvider.h; sourceTree = "<group>"; };
+		AD12137322436A220023CD95 /* LoginCubeProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginCubeProvider.m; sourceTree = "<group>"; };
+		AD12137522436A6C0023CD95 /* LoginCubeProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginCubeProtocol.h; sourceTree = "<group>"; };
+		AD12137922437AEE0023CD95 /* WTModuleItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTModuleItem.m; sourceTree = "<group>"; };
+		AD12137B22437AEE0023CD95 /* WTEventBus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTEventBus.h; sourceTree = "<group>"; };
+		AD12137C22437AEE0023CD95 /* WTSafeContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTSafeContainer.m; sourceTree = "<group>"; };
+		AD12137D22437AEE0023CD95 /* WTEventContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTEventContext.h; sourceTree = "<group>"; };
+		AD12137E22437AEE0023CD95 /* WTEventDispatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTEventDispatch.m; sourceTree = "<group>"; };
+		AD12137F22437AEE0023CD95 /* WTEventQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTEventQueue.h; sourceTree = "<group>"; };
+		AD12138022437AEE0023CD95 /* WTEventItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTEventItem.m; sourceTree = "<group>"; };
+		AD12138122437AEE0023CD95 /* WTEventAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTEventAction.h; sourceTree = "<group>"; };
+		AD12138222437AEE0023CD95 /* WTEventDispatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTEventDispatch.h; sourceTree = "<group>"; };
+		AD12138322437AEE0023CD95 /* WTEventContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTEventContext.m; sourceTree = "<group>"; };
+		AD12138422437AEE0023CD95 /* WTSafeContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTSafeContainer.h; sourceTree = "<group>"; };
+		AD12138522437AEE0023CD95 /* WTEventBus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTEventBus.m; sourceTree = "<group>"; };
+		AD12138622437AEE0023CD95 /* WTEventQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTEventQueue.m; sourceTree = "<group>"; };
+		AD12138722437AEE0023CD95 /* WTEventItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTEventItem.h; sourceTree = "<group>"; };
+		AD12138822437AEE0023CD95 /* WTEventAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTEventAction.m; sourceTree = "<group>"; };
+		AD12138922437AEE0023CD95 /* WTModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTModule.h; sourceTree = "<group>"; };
+		AD12138A22437AEE0023CD95 /* WTModuleLifecycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTModuleLifecycle.h; sourceTree = "<group>"; };
+		AD12138B22437AEE0023CD95 /* WTModuleMessager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTModuleMessager.h; sourceTree = "<group>"; };
+		AD12138D22437AEE0023CD95 /* WTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTAppDelegate.m; sourceTree = "<group>"; };
+		AD12138E22437AEE0023CD95 /* WTModuleLifecycle+AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WTModuleLifecycle+AppDelegate.h"; sourceTree = "<group>"; };
+		AD12138F22437AEE0023CD95 /* WTModuleItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTModuleItem.h; sourceTree = "<group>"; };
+		AD12139022437AEE0023CD95 /* WTModuleLifecycleDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTModuleLifecycleDelegate.h; sourceTree = "<group>"; };
+		AD12139122437AEE0023CD95 /* WTModuleMessager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTModuleMessager.m; sourceTree = "<group>"; };
+		AD12139222437AEE0023CD95 /* WTModuleLifecycle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTModuleLifecycle.m; sourceTree = "<group>"; };
+		AD12139322437AEE0023CD95 /* WTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTAppDelegate.h; sourceTree = "<group>"; };
+		AD12139422437AEE0023CD95 /* WTModuleLifecycle+AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WTModuleLifecycle+AppDelegate.m"; sourceTree = "<group>"; };
+		AD12139622437AEE0023CD95 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		AD1213A522437B780023CD95 /* Modularization-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Modularization-PrefixHeader.pch"; sourceTree = "<group>"; };
+		AD1213A622437CA70023CD95 /* WTModuleLogin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTModuleLogin.h; sourceTree = "<group>"; };
+		AD1213A722437CA70023CD95 /* WTModuleLogin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTModuleLogin.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD12132A224354B80023CD95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD121342224354BA0023CD95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD12134D224354BA0023CD95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD121324224354B80023CD95 = {
+			isa = PBXGroup;
+			children = (
+				AD12132F224354B80023CD95 /* Modularization */,
+				AD121348224354BA0023CD95 /* ModularizationTests */,
+				AD121353224354BA0023CD95 /* ModularizationUITests */,
+				AD12132E224354B80023CD95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD12132E224354B80023CD95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD12132D224354B80023CD95 /* Modularization.app */,
+				AD121345224354BA0023CD95 /* ModularizationTests.xctest */,
+				AD121350224354BA0023CD95 /* ModularizationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD12132F224354B80023CD95 /* Modularization */ = {
+			isa = PBXGroup;
+			children = (
+				AD12137622437AD70023CD95 /* Protocol-Class */,
+				AD121363224354E30023CD95 /* Protocol-Block */,
+				AD121362224354E30023CD95 /* Target-Action */,
+				AD121330224354B80023CD95 /* AppDelegate.h */,
+				AD121331224354B80023CD95 /* AppDelegate.m */,
+				AD121333224354B80023CD95 /* ViewController.h */,
+				AD121334224354B80023CD95 /* ViewController.m */,
+				AD121336224354B90023CD95 /* Main.storyboard */,
+				AD121339224354BA0023CD95 /* Assets.xcassets */,
+				AD12133B224354BA0023CD95 /* LaunchScreen.storyboard */,
+				AD1213A522437B780023CD95 /* Modularization-PrefixHeader.pch */,
+				AD12133E224354BA0023CD95 /* Info.plist */,
+				AD12133F224354BA0023CD95 /* main.m */,
+			);
+			path = Modularization;
+			sourceTree = "<group>";
+		};
+		AD121348224354BA0023CD95 /* ModularizationTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD121349224354BA0023CD95 /* ModularizationTests.m */,
+				AD12134B224354BA0023CD95 /* Info.plist */,
+			);
+			path = ModularizationTests;
+			sourceTree = "<group>";
+		};
+		AD121353224354BA0023CD95 /* ModularizationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD121354224354BA0023CD95 /* ModularizationUITests.m */,
+				AD121356224354BA0023CD95 /* Info.plist */,
+			);
+			path = ModularizationUITests;
+			sourceTree = "<group>";
+		};
+		AD121362224354E30023CD95 /* Target-Action */ = {
+			isa = PBXGroup;
+			children = (
+				AD12136A224366740023CD95 /* ModuleA */,
+				AD1213642243552B0023CD95 /* Mediator.h */,
+				AD1213652243552B0023CD95 /* Mediator.m */,
+				AD121367224363530023CD95 /* Mediator+Login.h */,
+				AD121368224363530023CD95 /* Mediator+Login.m */,
+			);
+			path = "Target-Action";
+			sourceTree = "<group>";
+		};
+		AD121363224354E30023CD95 /* Protocol-Block */ = {
+			isa = PBXGroup;
+			children = (
+				AD12137122436A070023CD95 /* CubeA */,
+				AD12136E2243691C0023CD95 /* Cube.h */,
+				AD12136F2243691C0023CD95 /* Cube.m */,
+				AD12137522436A6C0023CD95 /* LoginCubeProtocol.h */,
+			);
+			path = "Protocol-Block";
+			sourceTree = "<group>";
+		};
+		AD12136A224366740023CD95 /* ModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				AD12136B224366880023CD95 /* Target_Login.h */,
+				AD12136C224366880023CD95 /* Target_Login.m */,
+			);
+			path = ModuleA;
+			sourceTree = "<group>";
+		};
+		AD12137122436A070023CD95 /* CubeA */ = {
+			isa = PBXGroup;
+			children = (
+				AD12137222436A220023CD95 /* LoginCubeProvider.h */,
+				AD12137322436A220023CD95 /* LoginCubeProvider.m */,
+			);
+			path = CubeA;
+			sourceTree = "<group>";
+		};
+		AD12137622437AD70023CD95 /* Protocol-Class */ = {
+			isa = PBXGroup;
+			children = (
+				AD12137722437AEE0023CD95 /* WTModule */,
+				AD1213A622437CA70023CD95 /* WTModuleLogin.h */,
+				AD1213A722437CA70023CD95 /* WTModuleLogin.m */,
+			);
+			path = "Protocol-Class";
+			sourceTree = "<group>";
+		};
+		AD12137722437AEE0023CD95 /* WTModule */ = {
+			isa = PBXGroup;
+			children = (
+				AD12137822437AEE0023CD95 /* Classes */,
+				AD12139522437AEE0023CD95 /* Assets */,
+			);
+			path = WTModule;
+			sourceTree = "<group>";
+		};
+		AD12137822437AEE0023CD95 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AD12137A22437AEE0023CD95 /* EventBus */,
+				AD12139322437AEE0023CD95 /* WTAppDelegate.h */,
+				AD12138D22437AEE0023CD95 /* WTAppDelegate.m */,
+				AD12138922437AEE0023CD95 /* WTModule.h */,
+				AD12138A22437AEE0023CD95 /* WTModuleLifecycle.h */,
+				AD12139222437AEE0023CD95 /* WTModuleLifecycle.m */,
+				AD12138B22437AEE0023CD95 /* WTModuleMessager.h */,
+				AD12139122437AEE0023CD95 /* WTModuleMessager.m */,
+				AD12138F22437AEE0023CD95 /* WTModuleItem.h */,
+				AD12137922437AEE0023CD95 /* WTModuleItem.m */,
+				AD12139022437AEE0023CD95 /* WTModuleLifecycleDelegate.h */,
+				AD12138E22437AEE0023CD95 /* WTModuleLifecycle+AppDelegate.h */,
+				AD12139422437AEE0023CD95 /* WTModuleLifecycle+AppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AD12137A22437AEE0023CD95 /* EventBus */ = {
+			isa = PBXGroup;
+			children = (
+				AD12137B22437AEE0023CD95 /* WTEventBus.h */,
+				AD12138522437AEE0023CD95 /* WTEventBus.m */,
+				AD12137D22437AEE0023CD95 /* WTEventContext.h */,
+				AD12138322437AEE0023CD95 /* WTEventContext.m */,
+				AD12137F22437AEE0023CD95 /* WTEventQueue.h */,
+				AD12138622437AEE0023CD95 /* WTEventQueue.m */,
+				AD12138122437AEE0023CD95 /* WTEventAction.h */,
+				AD12138822437AEE0023CD95 /* WTEventAction.m */,
+				AD12138222437AEE0023CD95 /* WTEventDispatch.h */,
+				AD12137E22437AEE0023CD95 /* WTEventDispatch.m */,
+				AD12138422437AEE0023CD95 /* WTSafeContainer.h */,
+				AD12137C22437AEE0023CD95 /* WTSafeContainer.m */,
+				AD12138722437AEE0023CD95 /* WTEventItem.h */,
+				AD12138022437AEE0023CD95 /* WTEventItem.m */,
+			);
+			path = EventBus;
+			sourceTree = "<group>";
+		};
+		AD12139522437AEE0023CD95 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AD12139622437AEE0023CD95 /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD12132C224354B80023CD95 /* Modularization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD121359224354BA0023CD95 /* Build configuration list for PBXNativeTarget "Modularization" */;
+			buildPhases = (
+				AD121329224354B80023CD95 /* Sources */,
+				AD12132A224354B80023CD95 /* Frameworks */,
+				AD12132B224354B80023CD95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Modularization;
+			productName = Modularization;
+			productReference = AD12132D224354B80023CD95 /* Modularization.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD121344224354BA0023CD95 /* ModularizationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD12135C224354BA0023CD95 /* Build configuration list for PBXNativeTarget "ModularizationTests" */;
+			buildPhases = (
+				AD121341224354BA0023CD95 /* Sources */,
+				AD121342224354BA0023CD95 /* Frameworks */,
+				AD121343224354BA0023CD95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD121347224354BA0023CD95 /* PBXTargetDependency */,
+			);
+			name = ModularizationTests;
+			productName = ModularizationTests;
+			productReference = AD121345224354BA0023CD95 /* ModularizationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD12134F224354BA0023CD95 /* ModularizationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD12135F224354BA0023CD95 /* Build configuration list for PBXNativeTarget "ModularizationUITests" */;
+			buildPhases = (
+				AD12134C224354BA0023CD95 /* Sources */,
+				AD12134D224354BA0023CD95 /* Frameworks */,
+				AD12134E224354BA0023CD95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD121352224354BA0023CD95 /* PBXTargetDependency */,
+			);
+			name = ModularizationUITests;
+			productName = ModularizationUITests;
+			productReference = AD121350224354BA0023CD95 /* ModularizationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD121325224354B80023CD95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = D;
+				TargetAttributes = {
+					AD12132C224354B80023CD95 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					AD121344224354BA0023CD95 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AD12132C224354B80023CD95;
+					};
+					AD12134F224354BA0023CD95 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AD12132C224354B80023CD95;
+					};
+				};
+			};
+			buildConfigurationList = AD121328224354B80023CD95 /* Build configuration list for PBXProject "Modularization" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD121324224354B80023CD95;
+			productRefGroup = AD12132E224354B80023CD95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD12132C224354B80023CD95 /* Modularization */,
+				AD121344224354BA0023CD95 /* ModularizationTests */,
+				AD12134F224354BA0023CD95 /* ModularizationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD12132B224354B80023CD95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD12133D224354BA0023CD95 /* LaunchScreen.storyboard in Resources */,
+				AD12133A224354BA0023CD95 /* Assets.xcassets in Resources */,
+				AD1213A422437AEE0023CD95 /* .gitkeep in Resources */,
+				AD121338224354B90023CD95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD121343224354BA0023CD95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD12134E224354BA0023CD95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD121329224354B80023CD95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD121335224354B80023CD95 /* ViewController.m in Sources */,
+				AD12139B22437AEE0023CD95 /* WTEventContext.m in Sources */,
+				AD121340224354BA0023CD95 /* main.m in Sources */,
+				AD12139722437AEE0023CD95 /* WTModuleItem.m in Sources */,
+				AD1213662243552B0023CD95 /* Mediator.m in Sources */,
+				AD12139E22437AEE0023CD95 /* WTEventAction.m in Sources */,
+				AD12139A22437AEE0023CD95 /* WTEventItem.m in Sources */,
+				AD121332224354B80023CD95 /* AppDelegate.m in Sources */,
+				AD12139822437AEE0023CD95 /* WTSafeContainer.m in Sources */,
+				AD12139922437AEE0023CD95 /* WTEventDispatch.m in Sources */,
+				AD12136D224366880023CD95 /* Target_Login.m in Sources */,
+				AD12139D22437AEE0023CD95 /* WTEventQueue.m in Sources */,
+				AD1213A022437AEE0023CD95 /* WTAppDelegate.m in Sources */,
+				AD1213A222437AEE0023CD95 /* WTModuleLifecycle.m in Sources */,
+				AD1213A822437CA70023CD95 /* WTModuleLogin.m in Sources */,
+				AD1213A322437AEE0023CD95 /* WTModuleLifecycle+AppDelegate.m in Sources */,
+				AD121369224363530023CD95 /* Mediator+Login.m in Sources */,
+				AD12137422436A220023CD95 /* LoginCubeProvider.m in Sources */,
+				AD1213A122437AEE0023CD95 /* WTModuleMessager.m in Sources */,
+				AD12139C22437AEE0023CD95 /* WTEventBus.m in Sources */,
+				AD1213702243691C0023CD95 /* Cube.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD121341224354BA0023CD95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD12134A224354BA0023CD95 /* ModularizationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD12134C224354BA0023CD95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD121355224354BA0023CD95 /* ModularizationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD121347224354BA0023CD95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD12132C224354B80023CD95 /* Modularization */;
+			targetProxy = AD121346224354BA0023CD95 /* PBXContainerItemProxy */;
+		};
+		AD121352224354BA0023CD95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD12132C224354B80023CD95 /* Modularization */;
+			targetProxy = AD121351224354BA0023CD95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD121336224354B90023CD95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD121337224354B90023CD95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD12133B224354BA0023CD95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD12133C224354BA0023CD95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD121357224354BA0023CD95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD121358224354BA0023CD95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD12135A224354BA0023CD95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "Modularization/Modularization-PrefixHeader.pch";
+				INFOPLIST_FILE = Modularization/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Modularization;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD12135B224354BA0023CD95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "Modularization/Modularization-PrefixHeader.pch";
+				INFOPLIST_FILE = Modularization/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Modularization;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD12135D224354BA0023CD95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ModularizationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ModularizationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Modularization.app/Modularization";
+			};
+			name = Debug;
+		};
+		AD12135E224354BA0023CD95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ModularizationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ModularizationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Modularization.app/Modularization";
+			};
+			name = Release;
+		};
+		AD121360224354BA0023CD95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ModularizationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ModularizationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Modularization;
+			};
+			name = Debug;
+		};
+		AD121361224354BA0023CD95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ModularizationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ModularizationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Modularization;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD121328224354B80023CD95 /* Build configuration list for PBXProject "Modularization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD121357224354BA0023CD95 /* Debug */,
+				AD121358224354BA0023CD95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD121359224354BA0023CD95 /* Build configuration list for PBXNativeTarget "Modularization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD12135A224354BA0023CD95 /* Debug */,
+				AD12135B224354BA0023CD95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD12135C224354BA0023CD95 /* Build configuration list for PBXNativeTarget "ModularizationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD12135D224354BA0023CD95 /* Debug */,
+				AD12135E224354BA0023CD95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD12135F224354BA0023CD95 /* Build configuration list for PBXNativeTarget "ModularizationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD121360224354BA0023CD95 /* Debug */,
+				AD121361224354BA0023CD95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD121325224354B80023CD95 /* Project object */;
+}
